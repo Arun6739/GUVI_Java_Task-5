@@ -4,10 +4,7 @@ import java.util.Scanner;
 
 public class Q7 {
     public static void main(String[] args) {
-        // Create a Scanner object to read input from the user
         Scanner num = new Scanner(System.in);
-
-        // Input: Three numbers
         System.out.print("Enter the first number: ");
         int num1 = num.nextInt();
         
@@ -27,7 +24,6 @@ public class Q7 {
             largest = num3;
         }
 
-        // Output the largest number
         System.out.println("The largest number is: " + largest);
         num.close();
     }
